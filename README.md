@@ -68,6 +68,7 @@ cmake -G "Ninja Multi-Config" -DCMAKE_MAKE_PROGRAM=%NINJA_EXE_PATH% ^
 cmake --build . --target install --config Debug
 cmake --build . --target install --config Release
 ```
+in UE5.1, use "ue5_1-linux-cross-compile.cmake" replace "ue4-linux-cross-compile.cmake"
 
 ## 3. Android
 [Android Studio](https://developer.android.com/studio) is required. And you need install other additional sdk and tools through `SDK Manager`. 
